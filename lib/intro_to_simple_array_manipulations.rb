@@ -23,6 +23,6 @@ instruments.flatten
 end 
 
 def using_delete(instructors, element)
-my_list
+instructors.delete(steven)
 end
   
