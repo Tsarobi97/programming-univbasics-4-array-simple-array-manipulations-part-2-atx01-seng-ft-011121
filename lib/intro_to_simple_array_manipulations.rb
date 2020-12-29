@@ -12,5 +12,8 @@ another_language = "Python"
 new_array = list_of_programming_languages.insert(4, another_language)
 end
 
-def using_uniq(a)
-  a = []
+def using_uniq(haircuts)
+haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+haircuts.uniq
+end
+
