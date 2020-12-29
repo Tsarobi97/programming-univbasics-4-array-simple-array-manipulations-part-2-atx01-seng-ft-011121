@@ -6,7 +6,7 @@ def using_concat(a,b)
   all_my_favs = a.concat(b)
 end
 
-def using_inset(l,a)
+def using_insert(l,a)
   l = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
   a = ["Python"]
   n = l.insert(4, a)
