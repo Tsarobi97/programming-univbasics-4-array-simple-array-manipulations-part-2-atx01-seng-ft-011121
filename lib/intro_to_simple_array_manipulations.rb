@@ -22,8 +22,7 @@ instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
 instruments.flatten
 end 
 
-def using_delete(instructors)
-instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-no_offense_Steven = instructors.delete
+def using_delete(instructors, element)
+my_list
 end
   
