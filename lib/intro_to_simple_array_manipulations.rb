@@ -23,6 +23,6 @@ instruments.flatten
 end 
 
 def using_delete(instructors, element)
-instructors.delete(steven)
+instructors.delete(element)
 end
   
