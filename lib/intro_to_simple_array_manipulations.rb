@@ -26,6 +26,6 @@ def using_delete(instructors, element)
 instructors.delete(element)
 end
 
-def using_delete(a,b)
+def using_delete_at(a,b)
   a.delete_at(b)
 end
