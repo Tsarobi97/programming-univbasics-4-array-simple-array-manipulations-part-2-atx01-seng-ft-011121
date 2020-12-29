@@ -22,5 +22,8 @@ instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
 instruments.flatten
 end 
 
-def using_delete
+def using_delete(instructors)
+instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+instructors.delete(Steven)
+end
   
