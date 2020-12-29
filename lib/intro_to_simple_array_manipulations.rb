@@ -9,5 +9,5 @@ end
 def using_insert(l,a)
   l = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
   a = ["Python"]
-  n = l.insert(4, a)
+  n = l.insert(4)
 end
