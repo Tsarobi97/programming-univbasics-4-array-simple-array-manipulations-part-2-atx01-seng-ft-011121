@@ -22,10 +22,10 @@ instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
 instruments.flatten
 end 
 
-def using_delete(instructors, element)
+def using_delete(instructors, element) #string
 instructors.delete(element)
 end
 
-def using_delete_at(a,b)
+def using_delete_at(a,b) #integer
   a.delete_at(b)
 end
